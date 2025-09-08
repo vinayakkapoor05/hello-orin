@@ -1,10 +1,10 @@
 from waggle.plugin import Plugin
 
-
 def main():
     with Plugin() as plugin:
         print("This is the start of an amazing app!")
-        plugin.publish("Hellow World")
+        plugin.publish("hello.world.value", 175)
+
 
 
 if __name__ == "__main__":
